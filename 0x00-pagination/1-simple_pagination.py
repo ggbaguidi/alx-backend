@@ -40,7 +40,7 @@ class Server:
 
         if len(self.dataset()) < range_[1]:
             return []
-        return self.dataset()[range_[0] : range_[1]]
+        return self.dataset()[range_[0]:range_[1]]
 
 
 def index_range(page: int, page_size: int) -> tuple:

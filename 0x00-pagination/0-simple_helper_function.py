@@ -8,6 +8,7 @@ those particular pagination parameters.
 Page numbers are 1-indexed, i.e. the first page is page 1.
 """
 
+
 def index_range(page: int, page_size: int) -> tuple:
     """
     Attributes:

@@ -1,0 +1,4 @@
+venv
+*-main.py
+Popular_*
+*__pycache__
